@@ -1,0 +1,15 @@
+// TeamTile.scss
+.TeamTile {
+    height: 100px;
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        margin: 0;
+    }
+}

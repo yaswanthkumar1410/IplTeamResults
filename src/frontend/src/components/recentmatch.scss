@@ -1,0 +1,25 @@
+.RecentMatch {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+    margin-bottom: 20px;
+
+    .match-date, .match-venue{
+        margin-top: 10px;
+    }
+
+    .other-info-section {
+        text-align: right;
+        margin-bottom: 10px;
+    }
+}
+
+.main-match-info-section {
+    grid-column: span 1;
+}
+
+.other-info-section {
+    grid-column: span 1;
+    justify-content: left;
+}
+

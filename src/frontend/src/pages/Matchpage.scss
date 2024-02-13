@@ -1,0 +1,27 @@
+.MatchPage {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    
+    .year-selector {
+        grid-column: 1; 
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .matches-list {
+        grid-column: 2;
+    }
+
+    .heading {
+        text-align: center;
+        margin: 0; /* Reset margin */
+        padding: 0; /* Reset padding */
+        white-space: nowrap;
+    }
+
+    button {
+        margin-top: 8px;
+    }
+}

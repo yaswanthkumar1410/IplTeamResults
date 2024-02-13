@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@600&family=Akaya+Telivigala&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Abhaya Libre', serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.team-name {
+  font-family: 'Akaya Telivigala', system-ui;
+}
+
+.others{
+  background-color: green;
+}
+
+.lost-card {
+  background-color: grey;
+}
+
+.Delhi_Capitals {
+  background-color: #2561ae;
+}
+
+.Mumbai_Indians {
+  background-color: #216afb;
+}
+
+.Sunrisers_Hyderabad {
+  background-color: #f7a721;
+}
+
+.Rajasthan_Royals {
+  background-color: #254aa5;
+}
+
+.Kolkata_Knight_Riders{
+  background-color: #9365d8;
+}
+
+.Royal_Challengers_Bangalore {
+  background-color: #d5152c;
+}
+
+.Kings_XI_Punjab {
+  background-color: #ed1f27;
+}
+
+.Chennai_Super_Kings {
+  background-color: #fcce06;
+}
+
+h5 {
+  text-align: left;
+}
